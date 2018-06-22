@@ -1,0 +1,8 @@
+metadata:
+  name: camel-simple-request-reply
+spec:
+  port:
+    targetPort: http
+  to:
+    kind: Service
+    name: camel-simple-request-reply
